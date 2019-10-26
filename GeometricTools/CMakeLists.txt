@@ -442,7 +442,7 @@ target_sources_interface(Mathematics
 target_include_directories(Mathematics
     INTERFACE 
         $<INSTALL_INTERFACE:include>    
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
 )
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Mathematics
